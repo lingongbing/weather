@@ -1,0 +1,28 @@
+{
+    "name": "lingb/weather",
+    "description": "A weather",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lingb",
+            "email": "lingongbing@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "phpunit/phpunit": "^7.5.9",
+        "mockery/mockery": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lingb\\Weather\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lingb\\Weather\\ServiceProvider"
+            ]
+        }
+    }
+}
