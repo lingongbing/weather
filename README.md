@@ -6,7 +6,7 @@
 
 基于 [高德开放平台](https://github.com/lingb/weather/issues) 的 PHP 天气信息组件。
 
-## Installing
+## 安装
 
 ```shell
 $ composer require lingb/weather -vvv
