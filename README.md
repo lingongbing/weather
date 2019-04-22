@@ -19,7 +19,7 @@ $ composer require lingb/weather -vvv
 ## 使用
 
 ```php
-use Overtrue\Weather\Weather;
+use Lingb\Weather\Weather;
 
 $key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
