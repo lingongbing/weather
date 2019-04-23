@@ -29,7 +29,7 @@ $weather = new Weather($key);
 ## 获取实时天气
 
 ```php
-$response = $weather->getWeather('深圳');
+$response = $weather->getLiveWeather('深圳', 'all', 'xml');
 ```
 
 示例：
@@ -59,7 +59,7 @@ $response = $weather->getWeather('深圳');
 ## 获取近期天气预报
 
 ```php
-$response = $weather->getWeather('深圳', 'all');
+$response = $weather->getForecastsWeather('深圳', 'json');
 ```
 
 示例：
